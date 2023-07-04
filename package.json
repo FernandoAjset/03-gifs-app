@@ -8,9 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:href": "ng build --base-href ./",
-    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
+    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist && npm run copy:dist-assets",
     "delete:docs": "del docs",
-    "copy:dist": "copyfiles dist/gifs-app/* to ./docs -f"
+    "copy:dist": "copyfiles -f dist/gifs-app/* to ./docs",
+    "copy:dist-assets": "copyfiles -f dist/gifs-app/assets/* to ./docs/assets"
   },
   "private": true,
   "dependencies": {
