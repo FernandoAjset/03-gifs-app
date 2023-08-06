@@ -2,6 +2,9 @@
 
 Este proyecto "Gifs App" forma parte del curso "Angular de cero a experto - Edición 2023". Se trata de una aplicación Angular que carga imágenes utilizando la API pública de Giphy. El objetivo principal del proyecto es mostrar y buscar gifs, brindando a los usuarios una experiencia interactiva y divertida.
 
+### Demostración
+https://fernandoajset.github.io/04-country-app/countries/by-capital
+
 ## Temas cubiertos en el proyecto
 
 El proyecto abordó los siguientes temas clave de Angular:
